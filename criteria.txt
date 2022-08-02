@@ -5,11 +5,19 @@
 out now
 official
 visualizer
+(visualizer)
+[visualizer]
+(360 virtualizer)
+[edc 2022 compilation]
+(english version)
 lyric video
 extended mix
 original mix
 audio official
 official audio
+audio oficial
+( audio oficial )
+(audio oficial)
 official music video
 official version
 official video

@@ -8,6 +8,7 @@ import numpy as np
 swap_csv = r"C:\Users\Jeremiah\Python\Scripts\User\ytd-patch\swap_temp.csv"
 directory = r'C:\Users\Jeremiah\Downloads\youtube-dl'
 
+
 # Check if swap_temp.csv is older than 1 day.
 def is_file_older_than_x_days(file, days=1):
     file_time = os.path.getmtime(file)
@@ -23,6 +24,9 @@ def main():
 
     if is_file_older_than_x_days(swap_csv) is True:
         os.remove(swap_csv)
+        # Create empty CSV file
+        with open(r"C:\Users\Jeremiah\Python\Scripts\User\ytd-patch\swap_temp.csv", "w"):
+            pass
 
     for file in os.listdir():
         filetime = dt.datetime.fromtimestamp(os.path.getctime(file))
