@@ -13,6 +13,8 @@ visualizer
 (360 virtualizer)
 [edc 2022 compilation]
 (english version)
+high quality
+(high quality)
 lyric video
 extended mix
 original mix
@@ -21,6 +23,9 @@ official audio
 audio oficial
 ( audio oficial )
 (audio oficial)
+music video
+(music video)
+[music video]
 official music video
 official version
 official video
