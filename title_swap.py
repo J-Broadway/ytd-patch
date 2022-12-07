@@ -25,7 +25,7 @@ def main():
     if is_file_older_than_x_days(swap_csv) is True:
         os.remove(swap_csv)
         # Create empty CSV file
-        with open(r"C:\Users\Jeremiah\Python\Scripts\User\ytd-patch\swap_temp.csv", "w"):
+        with open(swap_csv, "w"):
             pass
 
     for file in os.listdir():
