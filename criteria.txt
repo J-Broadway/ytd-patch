@@ -1,6 +1,8 @@
 hq
 (hq)
 [hq]
+(hd)
+[HD]
 (audio)
 [audio]
 (lyrics)
@@ -15,6 +17,10 @@ visualizer
 (english version)
 high quality
 (high quality)
+(cover art)
+[cover art]
+(explicit)
+[explicit]
 lyric video
 extended mix
 original mix
